@@ -1,847 +1,247 @@
 <!DOCTYPE html>
-<html lang="zh-TW" class="scroll-smooth">
+<html lang="zh-Hant-TW">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>林逸蓁 Ginger Lin ｜ 職涯資產主理人 ｜ 暢銷商業新書《把資歷變資產》作者</title>
-    <meta name="description" content="林逸蓁 Ginger Lin 個人品牌旗艦首頁。暢銷商業新書《把資歷變資產》作者、BNI 新竹B區 創智 AI分會、20年高階經營層幕僚。獨家GAME職涯賽局法則™，協助企業打造自主運轉的資產型業務團隊，陪伴職場菁英建立長效複利職涯。">
-    
-    <!-- Google Fonts: Noto Serif TC & Noto Sans TC -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        obsidian: '#070709',
-                        surface: '#121218',
-                        surfaceElevated: '#1a1a24',
-                        gold: {
-                            light: '#F8E8A2',
-                            DEFAULT: '#E6CA75',
-                            dark: '#C29B38',
-                            deep: '#8A6A1E'
-                        },
-                        emeraldTone: '#0d2b22',
-                        emeraldBorder: '#1d4a3c'
-                    },
-                    fontFamily: {
-                        serif: ['"Microsoft JhengHei"', '"微軟正黑體"', '"PingFang TC"', 'sans-serif'],
-                        sans: ['"Microsoft JhengHei"', '"微軟正黑體"', '"PingFang TC"', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ginger Lin 林逸蓁</title>
+<meta name="description" content="Ginger Lin 林逸蓁，《把資歷變資產》作者，20+ 年企業經營層幕僚。">
+<meta property="og:title" content="Ginger Lin 林逸蓁">
+<meta property="og:description" content="《把資歷變資產》作者｜20+ 年企業經營層幕僚">
+<meta property="og:image" content="https://ginger.elites888.com/ginger_portrait.jpg">
+<style>
+  :root{
+    --bg:#111111; --bg2:#181818; --ink:#F2EEE6; --mute:#A8A39A; --line:#2C2B29; --accent:#C8A464;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--bg);color:var(--ink);font-family:"Microsoft JhengHei","微軟正黑體","PingFang TC","Heiti TC",sans-serif;font-size:17px;line-height:1.85;letter-spacing:.02em;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%;height:auto}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  .nw{display:inline-block;white-space:nowrap}
+  h1,h2,h3{font-weight:700;line-height:1.45;text-wrap:balance;word-break:keep-all;overflow-wrap:anywhere}
+  p,li{text-wrap:pretty}
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  /* header */
+  header{position:sticky;top:0;z-index:10;background:rgba(17,17,17,.9);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{font-size:18px;font-weight:700;letter-spacing:.04em}
+  .brand span{color:var(--mute);font-weight:400;margin-left:6px}
+  nav{display:flex;gap:28px;font-size:15px;color:var(--mute)}
+  nav a:hover{color:var(--ink)}
+  @media (max-width:760px){nav{display:none}}
 
-    <style>
-        body {
-            background-color: #070709;
-            color: #E2E8F0;
-            font-family: "Microsoft JhengHei", "微軟正黑體", "PingFang TC", "Heiti TC", sans-serif;
-            overflow-x: hidden;
-        }
+  /* buttons */
+  .btn{display:inline-block;padding:13px 26px;border-radius:999px;font-size:15px;font-weight:700;letter-spacing:.06em;transition:opacity .2s}
+  .btn:hover{opacity:.85}
+  .btn-solid{background:var(--accent);color:#111}
+  .btn-text{color:var(--accent);padding-left:4px;padding-right:4px;border-bottom:1px solid var(--accent);border-radius:0}
 
-        /* 奢華香檳金漸層文字 */
-        .text-gold-gradient {
-            background: linear-gradient(135deg, #FFF1B8 0%, #E6CA75 45%, #C29B38 85%, #F8E8A2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+  section{padding:96px 0}
+  @media (max-width:640px){section{padding:64px 0}}
+  .alt{background:var(--bg2)}
+  .eyebrow-free h2{font-size:30px;margin-bottom:20px}
+  @media (max-width:640px){.eyebrow-free h2{font-size:24px}}
+  .lead{color:var(--mute);max-width:36em}
 
-        /* 墨綠金專屬漸層 */
-        .emerald-gold-card {
-            background: linear-gradient(145deg, rgba(13, 43, 34, 0.85) 0%, rgba(10, 20, 18, 0.95) 100%);
-            border: 1px solid rgba(230, 202, 117, 0.3);
-            backdrop-filter: blur(12px);
-        }
+  /* hero */
+  .hero{padding:56px 0 96px}
+  .hero-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:64px;align-items:center}
+  .hero-photo{border-radius:4px;overflow:hidden;aspect-ratio:4/5;background:var(--bg2)}
+  .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+  .hero h1{font-size:40px;margin-bottom:24px}
+  .hero .who{color:var(--mute);margin-bottom:36px}
+  .hero .actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+  @media (max-width:860px){
+    .hero-grid{grid-template-columns:1fr;gap:36px}
+    .hero-photo{max-width:420px}
+    .hero h1{font-size:26px}
+  }
 
-        /* 奢華深色卡片微發光 */
-        .luxury-card {
-            background: linear-gradient(160deg, #161622 0%, #0d0d14 100%);
-            border: 1px solid rgba(230, 202, 117, 0.18);
-            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
-            transition: all 0.35s ease;
-        }
-        .luxury-card:hover {
-            border-color: rgba(230, 202, 117, 0.45);
-            box-shadow: 0 18px 40px -10px rgba(230, 202, 117, 0.12);
-            transform: translateY(-4px);
-        }
+  /* about */
+  .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+  .creds{list-style:none;color:var(--mute);font-size:15px}
+  .creds li{padding:14px 0;border-bottom:1px solid var(--line)}
+  .creds b{display:block;color:var(--ink);font-weight:700;font-size:16px;margin-bottom:2px}
+  .creds li:first-child{border-top:1px solid var(--line)}
+  .edu{margin-top:20px;font-size:14px;color:var(--mute);line-height:1.9}
+  .scene{margin-top:36px}
+  .scene img{width:100%;border-radius:4px}
+  .scene figcaption{margin-top:10px;font-size:14px;color:var(--mute)}
+  @media (max-width:760px){.about-grid{grid-template-columns:1fr;gap:36px}}
 
-        /* 金色光暈外框按鈕 */
-        .btn-gold-primary {
-            background: linear-gradient(135deg, #F8E8A2 0%, #E6CA75 50%, #C29B38 100%);
-            color: #070709;
-            font-weight: 700;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 20px rgba(230, 202, 117, 0.3);
-        }
-        .btn-gold-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(230, 202, 117, 0.5);
-            background: linear-gradient(135deg, #FFFFFF 0%, #F8E8A2 40%, #E6CA75 100%);
-        }
+  /* book */
+  .book-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
+  .book-grid img{max-width:320px;margin:0 auto}
+  .quote{font-size:19px;margin:8px 0 28px;color:var(--ink)}
+  .game{list-style:none;margin-bottom:32px}
+  .game li{padding:12px 0;color:var(--mute);border-bottom:1px solid var(--line)}
+  .game b{color:var(--accent);display:block;font-weight:700;margin-bottom:2px}
+  .endorse{margin-top:72px}
+  .endorse h3{font-size:20px;margin-bottom:20px}
+  .endorse ul{list-style:none;display:grid;grid-template-columns:1fr 1fr;column-gap:48px}
+  .endorse li{padding:14px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.7}
+  .endorse b{display:block;color:var(--ink);font-weight:700;font-size:16px}
+  .endorse span{color:var(--mute)}
+  @media (max-width:760px){.endorse ul{grid-template-columns:1fr}}
+  @media (max-width:760px){.book-grid{grid-template-columns:1fr;gap:32px}.book-grid img{max-width:220px}}
 
-        .btn-gold-secondary {
-            background: rgba(230, 202, 117, 0.08);
-            border: 1px solid rgba(230, 202, 117, 0.35);
-            color: #F8E8A2;
-            transition: all 0.3s ease;
-        }
-        .btn-gold-secondary:hover {
-            background: rgba(230, 202, 117, 0.18);
-            border-color: #E6CA75;
-            color: #FFFFFF;
-            transform: translateY(-2px);
-        }
+  /* paths */
+  .paths{display:grid;grid-template-columns:1fr 1fr;gap:64px;margin-top:48px}
+  .paths h3{font-size:22px;margin-bottom:12px}
+  .paths p{color:var(--mute);margin-bottom:20px}
+  @media (max-width:760px){.paths{grid-template-columns:1fr;gap:48px}}
 
-        /* 背景微光裝飾 */
-        .bg-glow-gold {
-            position: absolute;
-            width: 550px;
-            height: 550px;
-            background: radial-gradient(circle, rgba(230, 202, 117, 0.08) 0%, rgba(7, 7, 9, 0) 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
-        .bg-glow-emerald {
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(13, 60, 45, 0.18) 0%, rgba(7, 7, 9, 0) 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
-    </style>
+  /* resources */
+  .res{list-style:none;margin-top:44px;display:grid;grid-template-columns:repeat(5,1fr);gap:36px 28px}
+  .res a{display:flex;flex-direction:column;gap:8px;height:100%}
+  .res .ico{width:40px;height:40px;color:var(--accent);margin-bottom:8px}
+  .res .ico svg{width:100%;height:100%;display:block}
+  .res .name{font-weight:700;font-size:17px}
+  .res .desc{color:var(--mute);font-size:14px;line-height:1.75;flex:1}
+  .res .go{color:var(--accent);font-weight:700;font-size:14px;margin-top:4px}
+  .res a:hover .name{color:var(--accent)}
+  @media (max-width:900px){.res{grid-template-columns:repeat(3,1fr)}}
+  @media (max-width:560px){.res{grid-template-columns:1fr 1fr;gap:32px 20px}.res .ico{width:34px;height:34px}}
+
+  footer{padding:48px 0;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
+  .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
 </head>
-<body class="relative min-h-screen">
+<body>
 
-    <!-- 背景氛圍光效 -->
-    <div class="bg-glow-gold top-0 left-1/4 -translate-x-1/2"></div>
-    <div class="bg-glow-emerald top-96 right-0"></div>
-    <div class="bg-glow-gold bottom-96 left-10"></div>
+<header>
+  <div class="wrap bar">
+    <a href="#top" class="brand">Ginger Lin<span>林逸蓁</span></a>
+    <nav>
+      <a href="#about">關於</a>
+      <a href="#book">新書</a>
+      <a href="#work">合作</a>
+      <a href="#resources">免費資源</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- ================= 1. 頂部導覽列 (Navbar) ================= -->
-    <header class="sticky top-0 z-50 backdrop-blur-md bg-obsidian/85 border-b border-gold/15">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <!-- LOGO & 姓名標誌 -->
-            <a href="#" class="flex items-center gap-3.5 group">
-                <div class="w-12 h-12 rounded-xl overflow-hidden border border-gold/40 shadow-md group-hover:scale-105 transition duration-300 bg-black flex items-center justify-center p-0.5">
-                    <img src="official_diamond_logo.png" alt="林逸蓁 職感菁英學院 LOGO" class="w-full h-full object-contain">
-                </div>
-                <div>
-                    <div class="font-serif text-xl sm:text-2xl font-bold tracking-wider text-gold-gradient flex items-center gap-2">
-                        林逸蓁 <span class="text-xs sm:text-sm font-sans font-medium text-gold/80 tracking-normal px-2 py-0.5 rounded-full bg-gold/10 border border-gold/30">Ginger Lin</span>
-                    </div>
-                    <div class="text-[11px] sm:text-xs text-gray-400 font-sans tracking-wider">
-                        職感菁英學院 創辦人 ｜ 職涯資產主理人
-                    </div>
-                </div>
-            </a>
+<main id="top">
 
-            <!-- 桌面版快速錨點導覽 -->
-            <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-gray-300">
-                <a href="#about" class="hover:text-gold transition duration-200">關於我</a>
-                <a href="#book" class="hover:text-gold transition duration-200">暢銷新書</a>
-                <a href="#services" class="hover:text-gold transition duration-200">旗艦方案</a>
-                <a href="#resources" class="hover:text-gold transition duration-200">免費資源專區</a>
-                <a href="#speaking" class="hover:text-gold transition duration-200">邀約與合作</a>
-            </nav>
-
-            <!-- 頂部按鈕 -->
-            <div class="flex items-center gap-3">
-                <a href="https://line.me/R/ti/p/@elites888" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold btn-gold-primary">
-                    <i class="fab fa-line text-sm text-[#06C755]"></i>
-                    加入 LINE@
-                </a>
-                <a href="#bni" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-full text-xs font-medium btn-gold-secondary">
-                    <i class="fas fa-handshake text-gold"></i>
-                    <span>BNI 1-to-1</span>
-                </a>
-            </div>
+  <!-- 首屏 -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-photo">
+        <img src="https://ginger.elites888.com/ginger_portrait.jpg" alt="Ginger Lin 林逸蓁" width="800" height="1000">
+      </div>
+      <div>
+        <h1><span class="nw">讓每一段經歷產生複利，</span><span class="nw">讓每一次投入都成為</span><span class="nw">持續創造價值的資產。</span></h1>
+        <p class="who">《把資歷變資產》作者<br>20+ 年企業經營層幕僚</p>
+        <div class="actions">
+          <a class="btn btn-solid" href="https://workshop.elites888.com/">1/16 一日工作坊</a>
+          <a class="btn btn-text" href="https://book.elites888.com/">認識新書</a>
         </div>
-    </header>
+      </div>
+    </div>
+  </section>
 
-    <!-- ================= 2. 首屏旗艦看板 (Hero Section) & 雙軌直通按鈕 ================= -->
-    <section id="about" class="relative pt-12 pb-20 md:py-24 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-                
-                <!-- 左側：人物肖像尊榮展示卡 -->
-                <div class="lg:col-span-5 flex justify-center lg:justify-start">
-                    <div class="relative w-full max-w-sm sm:max-w-md">
-                        <!-- 金色背光裝飾 -->
-                        <div class="absolute -inset-1.5 bg-gradient-to-r from-gold via-gold/30 to-emeraldTone rounded-3xl blur-md opacity-60"></div>
-                        <div class="relative rounded-2xl overflow-hidden border border-gold/40 shadow-2xl bg-surface">
-                            <img src="ginger_portrait.jpg" alt="林逸蓁 Ginger Lin 肖像" class="w-full h-auto object-cover transform hover:scale-102 transition duration-500">
-                            
-                            <!-- 底部懸浮身分徽章 -->
-                            <div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-obsidian/90 backdrop-blur-md border border-gold/30 text-center">
-                                <div class="font-serif font-bold text-lg text-gold-gradient">林逸蓁 Ginger Lin</div>
-                                <div class="text-xs text-gray-300 mt-1 flex items-center justify-center gap-2 flex-wrap">
-                                    <span class="inline-flex items-center gap-1"><i class="fas fa-award text-gold"></i> 暢銷書作者</span>
-                                    <span>•</span>
-                                    <span class="inline-flex items-center gap-1"><i class="fas fa-briefcase text-gold"></i> 20年幕僚歷練</span>
-                                    <span>•</span>
-                                    <span class="inline-flex items-center gap-1"><i class="fas fa-network-wired text-gold"></i> BNI 創智AI分會</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <!-- 關於 -->
+  <section id="about" class="alt eyebrow-free">
+    <div class="wrap about-grid">
+      <div>
+        <h2>關於我</h2>
+        <p class="lead">在台灣大型集團擔任經營層幕僚超過 20 年，歷任董事長特助、經營企劃主管與企業內部講師。近距離看見企業如何評估人才、配置資源，也看見許多人很努力，卻沒能把經驗變成持續創造價值的資產；而企業也常隨著員工離職，讓累積多年的能力與經驗跟著流失。</p>
+        <p class="lead" style="margin-top:16px">這些觀察，後來成了<span class="nw">《把資歷變資產》這本書。</span></p>
+      </div>
+      <ul class="creds">
+        <li><b>20+ 年經營層幕僚</b>理解老闆在意的優先順序，以及決策怎麼在組織裡推動。每一次提案，都是一場高單價成交。</li>
+        <li><b>15+ 年企業內訓講師</b>結合實務演練，讓方法在現場落地，<span class="nw">不是上完課就忘。</span></li>
+        <li><b>高單價成交教練資格</b>以價值、需求與信任為基礎的關鍵成交力。</li>
+        <li><b>GPHR® 全球人力資源管理師（HRCI）</b>用國際人資的視角，看懂企業如何評估、培養與留住人才。</li>
+        <li><b>NLP 專業執行師（ABNLP）</b>找出卡住行動的那一層信念，讓想法和行動走在同一個方向。</li>
+        <li><b>勞動部就業服務乙級技術士</b>熟悉就業與職涯轉換的實務，給你落地可行的建議。</li>
+        <li><b>國立臺灣師範大學 EMBA</b>結合管理理論與經營現場，把經營者思維帶進職涯規劃。</li>
+        <li><b>東吳大學日文系、國貿系雙學士</b>跨語言與國際貿易的背景，理解跨國企業的溝通與運作。</li>
+        <li><b>104 人力銀行 Giver 職涯志工</b>長期陪伴不同階段的職場工作者，了解他們真實的困擾。</li>
+      </ul>
+    </div>
+  </section>
 
-                <!-- 右側：權威定位、核心Slogan與雙軌分流按鍵 -->
-                <div class="lg:col-span-7 flex flex-col justify-center text-left">
-                    <!-- 權威標籤群 -->
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-gold/15 text-gold border border-gold/30">
-                            <i class="fas fa-book-open mr-1"></i> 暢銷商業新書《把資歷變資產》作者
-                        </span>
-                        <span class="px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-emeraldTone text-[#6ee7b7] border border-emeraldBorder">
-                            <i class="fas fa-gem mr-1"></i> BNI 新竹B區 創智 AI分會
-                        </span>
-                        <span class="px-3 py-1 rounded-full text-xs font-medium text-gray-300 bg-surface border border-gray-700">
-                            <i class="fas fa-chess-knight mr-1 text-gold"></i> 20 年高階經營層幕僚
-                        </span>
-                    </div>
-
-                    <!-- 核心標語 (Slogan 定案方案 1) -->
-                    <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-black leading-tight tracking-tight text-white mb-6">
-                        讓每一段經歷產生<span class="text-gold-gradient">複利</span>，<br>
-                        讓每一次投入都成為持續創造價值的<span class="text-gold-gradient">資產</span>。
-                    </h1>
-
-                    <!-- 雙軌直通分流按鍵（直接包含面向企業與面向菁英的深度文案） -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                        <!-- 按鈕 1：企業主 ＆ 團隊領袖 -->
-                        <a href="#enterprise-solution" class="group p-5 rounded-xl bg-gradient-to-br from-surface to-[#0e1614] border border-gold/30 hover:border-gold transition duration-300 shadow-lg hover:-translate-y-1 flex flex-col justify-between">
-                            <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs uppercase font-bold tracking-widest text-gold px-2.5 py-0.5 rounded bg-gold/10 border border-gold/20">FOR ENTERPRISE</span>
-                                    <i class="fas fa-arrow-right text-gray-500 group-hover:text-gold group-hover:translate-x-1 transition duration-300"></i>
-                                </div>
-                                <h3 class="font-serif text-lg font-bold text-white group-hover:text-gold transition duration-200">
-                                    企業負責人 ＆ 團隊領袖
-                                </h3>
-                                <p class="text-xs text-gray-300 mt-2 leading-relaxed">
-                                    協助企業打造自主運轉、高產值的「資產型業務團隊」，複製前 5% 頂尖人才。
-                                </p>
-                            </div>
-                            <div class="mt-4 text-xs font-semibold text-gold flex items-center gap-1">
-                                探索團隊複製體系 <i class="fas fa-chevron-right text-[10px]"></i>
-                            </div>
-                        </a>
-
-                        <!-- 按鈕 2：職場工作者 ＆ 專業菁英 -->
-                        <a href="#pro-workshop" class="group p-5 rounded-xl bg-gradient-to-br from-surface to-[#161220] border border-gray-700/80 hover:border-gold/60 transition duration-300 shadow-lg hover:-translate-y-1 flex flex-col justify-between">
-                            <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs uppercase font-bold tracking-widest text-gray-300 px-2.5 py-0.5 rounded bg-white/5 border border-white/10">FOR PROFESSIONALS</span>
-                                    <i class="fas fa-arrow-right text-gray-500 group-hover:text-gold group-hover:translate-x-1 transition duration-300"></i>
-                                </div>
-                                <h3 class="font-serif text-lg font-bold text-white group-hover:text-gold transition duration-200">
-                                    職場工作者 ＆ 專業菁英
-                                </h3>
-                                <p class="text-xs text-gray-300 mt-2 leading-relaxed">
-                                    獨家 GAME 職涯賽局法則™，陪伴職場工作者建立具備長效複利的「職涯資產」。
-                                </p>
-                            </div>
-                            <div class="mt-4 text-xs font-semibold text-gold flex items-center gap-1">
-                                查看一日工作坊與新書 <i class="fas fa-chevron-right text-[10px]"></i>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- 個人完整專業簡介區塊 (新加入) -->
-            <div class="mt-16 luxury-card rounded-2xl p-7 sm:p-9 border border-gold/25">
-                <div class="flex items-center gap-3 mb-5">
-                    <span class="w-2.5 h-6 bg-gold rounded-full"></span>
-                    <h2 class="font-serif text-xl sm:text-2xl font-bold text-white">
-                        關於林逸蓁 ｜ 20 年高階經營層幕僚的深度洞察
-                    </h2>
-                </div>
-                <div class="space-y-4 text-sm sm:text-base text-gray-300 leading-relaxed font-normal">
-                    <p>
-                        任職於台灣大型集團旗下關係企業，擔任經營層幕僚超過 20 年，歷任董事長特助、經營企劃主管及企業內部講師。從企業策略、人才發展到組織變動，近距離參與經營決策現場，理解企業如何評估人才、配置資源與放大價值。
-                    </p>
-                    <p>
-                        受訓於國際企業家導師 Dan Lok，取得高價值溝通與高單價成交教練資格，將企業端的人才判斷，轉化為每個人都能運用的定位與價值溝通方法；並結合 NLP，將思維、行為與成果之間的連動關係，轉化為系統化工具。
-                    </p>
-                    <p class="text-xs sm:text-sm text-gray-400 pt-2 border-t border-gray-800">
-                        <strong class="text-gold">專業學經歷與認證：</strong>國立臺灣師範大學 EMBA，東吳大學日本語文學系、國際貿易學系雙學士。具美國人力資源認證協會（HR Certification Institute, HRCI）全球人力資源管理師（GPHR®）、美國神經語言程式學委員會（The American Board of Neuro-Linguistic Programming, ABNLP）NLP 專業執行師、勞動部就業服務乙級技術士（特許就業服務專業人員資格），並擔任 104 人力銀行 Giver 職涯志工。
-                    </p>
-                </div>
-            </div>
-
+  <!-- 新書 -->
+  <section id="book" class="eyebrow-free">
+    <div class="wrap">
+      <div class="book-grid">
+        <img src="https://ginger.elites888.com/book_3d_cover.png" alt="《把資歷變資產》書封" width="600" height="800">
+        <div>
+          <h2>《把資歷變資產》</h2>
+          <p class="quote">做過的事，是資歷；<br><span class="nw">能被持續運用、重新組合與放大，</span><span class="nw">才會成為資產。</span></p>
+          <ul class="game">
+            <li><b>G — Gauge｜評估籌碼</b>經驗的價值，不在於做過多少，而在於現在還值多少。</li>
+            <li><b>A — Allocate｜配置組合</b>資源的價值，不在於擁有多少，而在於能否配置出加乘效果。</li>
+            <li><b>M — Multiply｜倍增估值</b>價值的倍增，不在於用力推銷自己，而在於讓對的人主動選擇你。</li>
+            <li><b>E — Expand｜自動擴張</b>資產的擴張，不在於一個人持續累積，而在於帶動更多人共同創造。</li>
+          </ul>
+          <a class="btn btn-solid" href="https://book.elites888.com/">新書介紹與購買</a>
         </div>
-    </section>
+      </div>
+      <div class="endorse">
+        <h3>推薦人</h3>
+        <ul>
+          <li><b>蘇一仲</b><span>和泰興業股份有限公司會長</span></li>
+          <li><b>Dan Lok 駱鋒</b><span>華裔全球商業策略家，Dragon 100 創始人</span></li>
+          <li><b>林修禾</b><span>美股價值投資 BOS 巴菲特線上學院創辦人</span></li>
+          <li><b>何飛鵬</b><span>城邦出版集團創辦人</span></li>
+          <li><b>林明樟（MJ）</b><span>連續創業家暨兩岸三地上市公司指名度最高的頂尖財報職業講師</span></li>
+          <li><b>郝旭烈（郝哥）</b><span>郝聲音 YT 播客主持人</span></li>
+          <li><b>老獅說 Lion</b><span>知名個人 IP 教練</span></li>
+          <li><b>陳欣怡</b><span>安馨傳誠家族辦公室總經理</span></li>
+          <li><b>Hogan Lee</b><span>華人 NLP 暨催眠推廣教育中心執行長與首席講師</span></li>
+          <li><b>王國欽</b><span>臺灣師範大學運動休閒與餐旅管理研究所教授</span></li>
+          <li><b>孫弘岳</b><span>臺灣師範大學科技人資系教授、國際人力資源認證協會 IHRCI 榮譽董事</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <!-- ================= 3. 暢銷新書特區 (Book Showcase) ================= -->
-    <section id="book" class="py-20 bg-gradient-to-b from-obsidian via-surface/60 to-obsidian border-t border-b border-gold/15 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center max-w-3xl mx-auto mb-14">
-                <span class="text-xs font-bold tracking-widest uppercase text-gold px-3 py-1 rounded-full bg-gold/10 border border-gold/20 inline-block mb-3">
-                    BEST-SELLING BUSINESS BOOK
-                </span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-4">
-                    暢銷商業新書《<span class="text-gold-gradient">把資歷變資產</span>》
-                </h2>
-                <p class="text-gold font-medium text-base sm:text-lg">
-                    做過的事，是資歷；能被持續運用、重新組合與放大，才會成為資產。
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-                <!-- 3D立體書封展示 -->
-                <div class="lg:col-span-5 flex justify-center">
-                    <div class="relative group max-w-xs sm:max-w-sm">
-                        <!-- 金色柔光 -->
-                        <div class="absolute -inset-2 bg-gradient-to-r from-gold/40 to-yellow-600/20 rounded-2xl blur-xl opacity-70 group-hover:opacity-100 transition duration-500"></div>
-                        <img src="book_3d_cover.png" alt="《把資歷變資產》3D立體書封" class="relative w-full h-auto drop-shadow-2xl transform group-hover:scale-105 transition duration-500">
-                    </div>
-                </div>
-
-                <!-- 書籍精華：G.A.M.E. 職涯賽局法則與適用對象 -->
-                <div class="lg:col-span-7">
-                    <div class="luxury-card p-6 sm:p-8 rounded-2xl">
-                        
-                        <!-- 核心心法：G.A.M.E. 職涯賽局法則 -->
-                        <div class="mb-7">
-                            <h3 class="font-serif text-lg sm:text-xl font-bold text-white mb-2 flex items-center gap-2">
-                                <i class="fas fa-chess-queen text-gold"></i> ▌關於 G.A.M.E. 職涯賽局法則──
-                            </h3>
-                            <p class="text-xs sm:text-sm text-gray-300 leading-relaxed mb-4">
-                                一套讓資歷持續增值的 G.A.M.E. 職涯賽局法則，帶你從評估、配置、倍增到擴張，將零散的經驗，轉化為能持續創造價值的資產：
-                            </p>
-                            
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">G — Gauge ｜ 評估籌碼</div>
-                                    <p class="text-xs text-gray-300 mt-1">經驗的價值，不在於做過多少，而在於現在還值多少。</p>
-                                </div>
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">A — Allocate ｜ 配置組合</div>
-                                    <p class="text-xs text-gray-300 mt-1">資源的價值，不在於擁有多少，而在於能否配置出加乘效果。</p>
-                                </div>
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">M — Multiply ｜ 倍增估值</div>
-                                    <p class="text-xs text-gray-300 mt-1">價值的倍增，不在於用力推銷自己，而在於讓對的人主動選擇你。</p>
-                                </div>
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">E — Expand ｜ 自動擴張</div>
-                                    <p class="text-xs text-gray-300 mt-1">資產的擴張，不在於一個人持續累積，而在於帶動更多人共同創造。</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 適用對象清單 -->
-                        <div class="mb-8 p-4 rounded-xl bg-black/40 border border-gold/20">
-                            <div class="text-xs font-bold text-gold uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
-                                <i class="fas fa-check-double"></i> ▌本書適合正在思考以下問題的你——
-                            </div>
-                            <div class="space-y-1.5 text-xs sm:text-sm text-gray-300">
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>工作多年、累積不少，卻還沒有轉化為清楚可見的價值</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>準備承擔更重要的角色，希望重新配置時間、能力與資源</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>想在既有基礎上發展第二價值曲線，卻不知道該從何開始</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>面對 AI 與環境變動，想找到能夠長期增值的能力</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>正在培育關鍵人才、布局接班，希望打造資產型人才團隊</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- 購書與共學雙行動按鈕 -->
-                        <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="https://book.elites888.com" target="_blank" class="flex-1 text-center py-3.5 px-6 rounded-xl font-bold btn-gold-primary flex items-center justify-center gap-2">
-                                <i class="fas fa-shopping-cart"></i>
-                                立即搶讀新書 (專屬推薦頁)
-                            </a>
-                            <a href="https://workshop.elites888.com/" target="_blank" class="flex-1 text-center py-3.5 px-6 rounded-xl font-bold btn-gold-secondary flex items-center justify-center gap-2">
-                                <i class="fas fa-users-crown text-gold"></i>
-                                了解一日工作坊與共學群
-                            </a>
-                        </div>
-                        <p class="text-center text-xs text-gray-400 mt-2.5">
-                            * 新書讀者完成一日工作坊後，可取得「資產升級共學群」入群面談資格
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- 企業領袖與跨界專家共同推薦 (全名全頭銜完整呈現) -->
-            <div class="mt-14 luxury-card p-6 sm:p-8 rounded-2xl border-t-2 border-t-gold/70">
-                <div class="text-center mb-6">
-                    <span class="text-xs uppercase tracking-widest text-gold font-bold px-3 py-1 rounded-full bg-gold/10 border border-gold/30 inline-block mb-2">
-                        HONORARY RECOMMENDATIONS
-                    </span>
-                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">
-                        ▌企業領袖與跨界專家共同推薦——
-                    </h3>
-                </div>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs sm:text-sm text-gray-300">
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">蘇一仲</strong>
-                        <span class="text-gray-400 text-xs">和泰興業股份有限公司會長</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">Dan Lok 駱鋒</strong>
-                        <span class="text-gray-400 text-xs">華裔全球商業策略家 Dragon 100 創始人 & Certainty Capitalist</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">林修禾</strong>
-                        <span class="text-gray-400 text-xs">美股價值投資 BOS 巴菲特線上學院創辦人</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">何飛鵬</strong>
-                        <span class="text-gray-400 text-xs">城邦出版集團創辦人</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">林明樟（MJ）</strong>
-                        <span class="text-gray-400 text-xs">連續創業家暨兩岸三地上市公司指名度最高的頂尖財報職業講師</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">郝旭烈（郝哥）</strong>
-                        <span class="text-gray-400 text-xs">郝聲音 YT 播客主持人</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">老獅說 Lion</strong>
-                        <span class="text-gray-400 text-xs">知名個人 IP 教練</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">陳欣怡</strong>
-                        <span class="text-gray-400 text-xs">安馨傳誠家族辦公室 總經理</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">Hogan Lee</strong>
-                        <span class="text-gray-400 text-xs">華人 NLP 暨催眠推廣教育中心執行長與首席講師</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">王國欽</strong>
-                        <span class="text-gray-400 text-xs">臺灣師範大學運動休閒與餐旅管理研究所教授</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition md:col-span-2 lg:col-span-2">
-                        <strong class="text-white font-bold block text-sm mb-0.5">孫弘岳</strong>
-                        <span class="text-gray-400 text-xs">臺灣師範大學科技人資系教授、國際人力資源認證協會 IHRCI 榮譽董事</span>
-                    </div>
-                </div>
-            </div>
-
+  <!-- 合作 -->
+  <section id="work" class="alt eyebrow-free">
+    <div class="wrap">
+      <h2>一起把資歷變成資產</h2>
+      <div class="paths">
+        <div>
+          <h3>給個人</h3>
+          <p>一日工作坊，盤點你已經累積的職涯資產，完成一份回到工作崗位就能執行的 90 日行動計畫。</p>
+          <a class="btn btn-text" href="https://workshop.elites888.com/">了解一日工作坊</a>
         </div>
-    </section>
-
-    <!-- ================= 4. 雙軌旗艦服務專區 (Flagship Solutions) ================= -->
-    <section id="services" class="py-20 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold tracking-widest uppercase text-gold px-3 py-1 rounded-full bg-gold/10 border border-gold/20 inline-block mb-3">
-                    FLAGSHIP SOLUTIONS
-                </span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-4">
-                    雙軌賦能體系：<span class="text-gold-gradient">個人精進 ＆ 企業賦能</span>
-                </h2>
-                <p class="text-gray-300 text-base">
-                    從職場工作者的職涯資產盤點，到企業負責人的頂尖人才複製體系，提供最落地的實戰解決方案。
-                </p>
-            </div>
-
-            <!-- 兩大軌道並行展示卡 -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-                
-                <!-- 軌道 1：給職場工作者 (一日工作坊) -->
-                <div id="pro-workshop" class="luxury-card rounded-2xl p-7 sm:p-8 flex flex-col justify-between border-t-4 border-t-gold/70">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 rounded-full text-xs font-bold bg-gold/15 text-gold border border-gold/30">
-                                給職場工作者 ｜ 菁英定位
-                            </span>
-                            <span class="text-xs text-gray-400"><i class="fas fa-clock text-gold mr-1"></i> 精實一日沉浸</span>
-                        </div>
-                        
-                        <h3 class="font-serif text-2xl font-bold text-white mb-3">
-                            【一日工作坊】盤點職涯資產，完成 90 日行動計畫
-                        </h3>
-                        
-                        <p class="text-gold text-sm font-semibold mb-5 leading-relaxed">
-                            「用一天盤點已累積的職涯資產，親手完成具備第 30 / 60 / 90 天檢核點的行動計畫，回到工作崗位就能開始執行。」
-                        </p>
-
-                        <div class="space-y-3.5 mb-8 text-sm text-gray-300">
-                            <div class="flex items-start gap-2.5">
-                                <i class="fas fa-check-circle text-gold mt-1"></i>
-                                <span><strong>職涯資產盤點：</strong>看清自己已經累積了哪些經驗與能力，找出最值得放大的那一項。</span>
-                            </div>
-                            <div class="flex items-start gap-2.5">
-                                <i class="fas fa-check-circle text-gold mt-1"></i>
-                                <span><strong>90 日行動計畫：</strong>現場產出專屬於你的 30 / 60 / 90 天具體行動檢核點。</span>
-                            </div>
-                            <div class="flex items-start gap-2.5">
-                                <i class="fas fa-check-circle text-gold mt-1"></i>
-                                <span><strong>高階幕僚視角：</strong>理解經營者如何看待價值，讓你的投入與團隊目標對齊，被看見也被重用。</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a href="https://workshop.elites888.com" target="_blank" class="w-full text-center py-3.5 px-6 rounded-xl font-bold btn-gold-secondary flex items-center justify-center gap-2 group">
-                            <span>了解一日工作坊課表與最新梯次</span>
-                            <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition duration-300"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- 軌道 2：給企業主管 (資產型業務團隊複製體系) -->
-                <div id="enterprise-solution" class="luxury-card rounded-2xl p-7 sm:p-8 flex flex-col justify-between border-t-4 border-t-emeraldBorder bg-gradient-to-b from-[#0c1814] to-surface">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 rounded-full text-xs font-bold bg-emeraldTone text-[#6ee7b7] border border-emeraldBorder">
-                                給企業主管與負責人 ｜ 團隊高產值
-                            </span>
-                            <span class="text-xs text-gold font-semibold"><i class="fas fa-crown mr-1"></i> 複製前 5% 頂尖人才</span>
-                        </div>
-                        
-                        <h3 class="font-serif text-2xl font-bold text-white mb-3">
-                            【資產型團隊複製體系】打造高產值團隊
-                        </h3>
-                        
-                        <p class="text-[#a7f3d0] text-sm font-semibold mb-5 leading-relaxed">
-                            適合企業負責人、業務總監與團隊領袖。透過複製前 5% 優秀人才，打造高產值業務體系。結合國際頂級資源為企業提供真正的「業績與人才解方」：
-                        </p>
-
-                        <!-- 三大國際核心支柱 -->
-                        <div class="space-y-4 mb-8 text-sm text-gray-300">
-                            <div class="p-3.5 rounded-xl bg-black/40 border border-emeraldBorder/50">
-                                <div class="font-bold text-white flex items-center gap-2 mb-1">
-                                    <i class="fas fa-bolt text-gold"></i> 🔹 國際頂級成交系統
-                                </div>
-                                <p class="text-xs text-gray-400">
-                                    以 Dan Lok（駱鋒）高單價成交教練訓練為基礎，將高價值成交思維導入組織，協助企業打造持續自我運轉、創造複利價值的「資產型業務團隊」。
-                                </p>
-                            </div>
-
-                            <div class="p-3.5 rounded-xl bg-black/40 border border-emeraldBorder/50">
-                                <div class="font-bold text-white flex items-center gap-2 mb-1">
-                                    <i class="fas fa-database text-gold"></i> 🔹 40 年大數據與 AI 動態管理
-                                </div>
-                                <p class="text-xs text-gray-400">
-                                    以 40 年累積、超過千萬筆專業數據庫為基底，只要 10 分鐘，就能清楚看見「人才特質與職位需求」的真實落差！
-                                </p>
-                            </div>
-
-                            <div class="p-3.5 rounded-xl bg-black/40 border border-emeraldBorder/50">
-                                <div class="font-bold text-white flex items-center gap-2 mb-1">
-                                    <i class="fas fa-compass text-gold"></i> 🔹 落地指導方案
-                                </div>
-                                <p class="text-xs text-gray-400">
-                                    透過人才動態管理與 AI 教練系統，不再瞎猜盲摸，給予企業具體可行的建議：人該怎麼帶、任務該怎麼調、業績該怎麼突破。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a href="https://talent.elites888.com/" target="_blank" class="w-full text-center py-3.5 px-6 rounded-xl font-bold btn-gold-primary flex items-center justify-center gap-2 group">
-                            <span>了解更多</span>
-                            <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition duration-300"></i>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
+        <div>
+          <h3>給企業與社團</h3>
+          <p>培養持續創造價值的資產型人才。</p>
+          <a class="btn btn-text" href="https://speech.elites888.com/">演講與內訓邀約</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- ================= 5. 免費資源專區 (All-in-One 內嵌同頁) ================= -->
-    <section id="resources" class="py-20 bg-surface/50 border-t border-b border-gold/15 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-bold tracking-widest uppercase text-gold px-3 py-1 rounded-full bg-gold/10 border border-gold/20 inline-block mb-3">
-                    EXCLUSIVE FREE RESOURCES
-                </span>
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
-                    菁英成長<span class="text-gold-gradient">免費資源總覽</span>
-                </h2>
-            </div>
+  <!-- 免費資源 -->
+  <section id="resources" class="eyebrow-free">
+    <div class="wrap">
+      <h2>免費資源</h2>
+      <ul class="res">
+        <li><a href="https://the-socialite-academy.kit.com/7b8ae564bd"><span class="ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="11" width="36" height="26" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M7 13l17 13 17-13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></span><span class="name">幕僚觀察隨筆</span><span class="desc">訂閱送 AI 健檢指令</span><span class="go">訂閱 →</span></a></li>
+        <li><a href="https://www.youtube.com/@gingerlin8568"><span class="ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="11" width="40" height="27" rx="8" fill="currentColor"/><path d="M20 18v13l11-6.5z" fill="#111"/></svg></span><span class="name">YouTube</span><span class="desc">職場觀點與來賓對談</span><span class="go">觀看 →</span></a></li>
+        <li><a href="https://open.spotify.com/show/7EKQQERlSVzEewlJ3zWlLt"><span class="ico"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="19" fill="currentColor"/><path d="M14 19c7-2.5 14-2 20.5 1.5M15 25c5.5-2 11.5-1.5 17 1.3M16.5 30.5c4.5-1.4 9-1.1 13.3 1" fill="none" stroke="#111" stroke-width="2.6" stroke-linecap="round"/></svg></span><span class="name">Podcast</span><span class="desc">通勤也能聽的職場觀察</span><span class="go">收聽 →</span></a></li>
+        <li><a href="https://line.me/R/ti/p/@elites888"><span class="ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="4" y="4" width="40" height="40" rx="10" fill="currentColor"/><path d="M24 12c-8.3 0-15 5.3-15 11.9 0 5.9 5.3 10.8 12.5 11.7.5.1 1.2.3 1.3.8.1.4.1 1 0 1.4l-.2 1.3c-.1.4-.3 1.5 1.3.8 1.6-.7 8.7-5.1 11.8-8.8 2.2-2.4 3.3-4.8 3.3-7.2C39 17.3 32.3 12 24 12z" fill="#111"/></svg></span><span class="name">LINE 官方帳號</span><span class="desc">活動與課程第一手消息</span><span class="go">加入 →</span></a></li>
+        <li><a href="https://freeresources.elites888.com/"><span class="ico"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="11" y="5" width="26" height="38" rx="4" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="16" y="10" width="16" height="8" rx="1.5" fill="currentColor"/><g fill="currentColor"><circle cx="18" cy="25" r="2"/><circle cx="24" cy="25" r="2"/><circle cx="30" cy="25" r="2"/><circle cx="18" cy="31" r="2"/><circle cx="24" cy="31" r="2"/><circle cx="30" cy="31" r="2"/><circle cx="18" cy="37" r="2"/><circle cx="24" cy="37" r="2"/><circle cx="30" cy="37" r="2"/></g></svg></span><span class="name">更多資源</span><span class="desc"><span class="nw">拖延症成本計算機</span><span class="nw">等實用工具</span></span><span class="go">前往 →</span></a></li>
+      </ul>
+    </div>
+  </section>
 
-            <!-- 三大免費資源模組卡 -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
-                <!-- 資源 1：每月電子報 (Kit 送 AI 指令) -->
-                <div class="luxury-card rounded-2xl p-7 flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 rounded-xl bg-gold/15 border border-gold/30 flex items-center justify-center text-gold text-2xl mb-5">
-                            <i class="fas fa-envelope-open-text"></i>
-                        </div>
-                        <span class="text-xs font-bold text-gold uppercase tracking-wider">MONTHLY NEWSLETTER</span>
-                        <h3 class="font-serif text-xl font-bold text-white mt-1 mb-3">
-                            幕僚觀察隨筆
-                        </h3>
-                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
-                            分享 Ginger 的職場商業觀察、高階幕僚案例與最新趨勢分析。
-                        </p>
-                        
-                        <!-- 專屬贈品高亮標籤 -->
-                        <div class="p-3.5 rounded-xl bg-gold/10 border border-gold/30 mb-6">
-                            <div class="text-xs font-bold text-gold flex items-center gap-1.5 mb-1">
-                                <i class="fas fa-gift text-gold"></i> 訂閱專屬即時好禮
-                            </div>
-                            <div class="text-xs text-gray-200">
-                                立即免費獲贈<strong>《職涯資產健檢 AI 指令》</strong>，用 AI 快速盤點你的職涯資產！
-                            </div>
-                        </div>
-                    </div>
+</main>
 
-                    <a href="https://the-socialite-academy.kit.com/7b8ae564bd" target="_blank" class="w-full text-center py-3 px-4 rounded-xl font-bold btn-gold-primary text-xs flex items-center justify-center gap-2">
-                        <i class="fas fa-paper-plane"></i>
-                        免費訂閱並領取 AI 指令
-                    </a>
-                </div>
-
-                <!-- 資源 2：YouTube 官方頻道 -->
-                <div class="luxury-card rounded-2xl p-7 flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 rounded-xl bg-red-600/15 border border-red-500/30 flex items-center justify-center text-red-500 text-2xl mb-5">
-                            <i class="fab fa-youtube"></i>
-                        </div>
-                        <span class="text-xs font-bold text-red-400 uppercase tracking-wider">OFFICIAL YOUTUBE</span>
-                        <h3 class="font-serif text-xl font-bold text-white mt-1 mb-3">
-                            Ginger 官方 YouTube 頻道
-                        </h3>
-                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
-                            主題涵蓋資產型思維、業務開發、職場定位、案例拆解。並不定期邀請厲害的業界專家，分享他們把資歷變資產的歷程與智慧。
-                        </p>
-                        
-                        <div class="space-y-2 mb-6 text-xs text-gray-400">
-                            <div class="flex items-center gap-2"><i class="fas fa-play text-red-400 text-[10px]"></i> 高階幕僚核心思考拆解</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-play text-red-400 text-[10px]"></i> 業務與談判策略</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-play text-red-400 text-[10px]"></i> 業界領袖深度對話訪談</div>
-                        </div>
-                    </div>
-
-                    <a href="https://www.youtube.com/@gingerlin8568" target="_blank" class="w-full text-center py-3 px-4 rounded-xl font-bold bg-[#FF0000] text-white hover:bg-red-700 transition duration-300 text-xs flex items-center justify-center gap-2 shadow-lg">
-                        <i class="fab fa-youtube"></i>
-                        點擊訂閱並開啟小鈴鐺
-                    </a>
-                </div>
-
-                <!-- 資源 3：隨身 Podcast 隨選隨聽 (Spotify & Buzzsprout) -->
-                <div class="luxury-card rounded-2xl p-7 flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 rounded-xl bg-emeraldTone border border-emeraldBorder flex items-center justify-center text-[#1DB954] text-2xl mb-5">
-                            <i class="fas fa-podcast"></i>
-                        </div>
-                        <span class="text-xs font-bold text-[#1DB954] uppercase tracking-wider">AUDIO PODCAST</span>
-                        <h3 class="font-serif text-xl font-bold text-white mt-1 mb-3">
-                            菁英隨身聽 Podcast
-                        </h3>
-                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
-                            通勤、運動與專注時刻的商務充電站。用聽覺吸收實用的思考模型，把碎片化時間轉化為認知資產。
-                        </p>
-
-                        <div class="space-y-2 mb-6 text-xs text-gray-400">
-                            <div class="flex items-center gap-2"><i class="fas fa-headphones text-gold text-[10px]"></i> 隨走隨聽，免盯螢幕的高效學習</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-check text-gold text-[10px]"></i> 支援各大主流收聽平台</div>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-2 gap-2.5">
-                        <a href="https://open.spotify.com/show/7EKQQERlSVzEewlJ3zWlLt" target="_blank" class="py-2.5 px-3 rounded-lg bg-[#1DB954]/20 border border-[#1DB954]/50 text-[#1DB954] hover:bg-[#1DB954] hover:text-black transition duration-200 text-xs font-bold text-center flex items-center justify-center gap-1.5">
-                            <i class="fab fa-spotify"></i> Spotify 收聽
-                        </a>
-                        <a href="https://ginger.buzzsprout.com/" target="_blank" class="py-2.5 px-3 rounded-lg bg-surface border border-gray-700 text-gray-200 hover:border-gold hover:text-gold transition duration-200 text-xs font-bold text-center flex items-center justify-center gap-1.5">
-                            <i class="fas fa-rss"></i> Buzzsprout
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 6. 演講邀約 ＆ BNI 1-to-1 商務交流 ================= -->
-    <section id="speaking" class="py-20 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                
-                <!-- 演講與內訓邀約 -->
-                <div class="lg:col-span-6 luxury-card rounded-2xl p-7 sm:p-9 border-t-2 border-t-gold">
-                    <span class="text-xs font-bold text-gold uppercase tracking-wider mb-2 block">
-                        KEYNOTE & CORPORATE TRAINING
-                    </span>
-                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
-                        企業內訓 ＆ 主題演講邀約
-                    </h3>
-                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                        豐富的實體與線上演講歷練，能針對企業痛點、業務團隊士氣、中高階主管領導思維進行客製化策展。為組織帶來即刻可落地的實戰觀念轉換。
-                    </p>
-                    <ul class="space-y-2.5 text-xs sm:text-sm text-gray-300 mb-8">
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-gold"></i> 商業大會年會專題 Keynote 演講</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-gold"></i> 企業中高階幕僚與跨部門整合實務內訓</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-gold"></i> 高產值業務思維與高單價成交心法培訓</li>
-                    </ul>
-                    <a href="https://speech.elites888.com" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold btn-gold-primary text-sm">
-                        <i class="fas fa-microphone-alt"></i> 前往演講邀約專屬頁面
-                    </a>
-                </div>
-
-                <!-- BNI 1-to-1 商務交流 (更新為專屬連結) -->
-                <div id="bni" class="lg:col-span-6 emerald-gold-card rounded-2xl p-7 sm:p-9">
-                    <span class="text-xs font-bold text-[#6ee7b7] uppercase tracking-wider mb-2 block">
-                        BNI STRATEGIC ALLIANCE
-                    </span>
-                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
-                        BNI 會員夥伴 1-to-1 商務深談
-                    </h3>
-                    <p class="text-gray-200 text-sm leading-relaxed mb-6">
-                        <strong>林逸蓁 Ginger Lin ｜ BNI 新竹B區 創智 AI分會</strong><br>
-                        秉持 Givers Gain® 付出者收穫理念，歡迎 BNI 全球夥伴預約 1-to-1 深度對談。探討企業人才複製、業務合作引薦與各產業資源對接！
-                    </p>
-                    <div class="p-4 rounded-xl bg-black/40 border border-gold/30 mb-8 text-xs text-gray-300">
-                        <div class="text-gold font-bold mb-1 flex items-center gap-1.5">
-                            <i class="fas fa-calendar-alt"></i> 專屬 1-to-1 預約指引
-                        </div>
-                        點擊下方專屬日曆連結，即可選取合適的交流時段，讓我們在線上或線下進行精準商務合作探討。
-                    </div>
-                    <a href="https://calendly.com/urcareer101/bni" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold btn-gold-primary text-sm">
-                        <i class="fas fa-calendar-check"></i> 立即預約 BNI 1-to-1 (Calendly)
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 7. 官方 LINE@ 專屬頻道 (QR Code & 第一手資訊) ================= -->
-    <section class="py-20 bg-gradient-to-b from-obsidian via-[#0a1813] to-obsidian border-t border-gold/20 relative">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="emerald-gold-card rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
-                
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-                    
-                    <!-- 左側：QR Code 尊榮展示 (包含官方墨綠金鑽石LOGO) -->
-                    <div class="md:col-span-5 flex flex-col items-center justify-center text-center">
-                        <div class="relative p-3.5 rounded-2xl bg-white shadow-2xl border-2 border-gold/60 max-w-[240px]">
-                            <img src="line_qrcode.png" alt="林逸蓁 LINE@ elites888 QR Code" class="w-full h-auto rounded-lg">
-                        </div>
-                        <div class="mt-3.5 text-center">
-                            <span class="text-xs uppercase font-bold tracking-widest text-gold px-3 py-1 rounded-full bg-black/50 border border-gold/30">
-                                專屬 ID：@elites888
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- 右側：加入獲取第一手活動/課程資訊與一鍵加好友 -->
-                    <div class="md:col-span-7">
-                        <span class="text-xs font-bold text-[#6ee7b7] uppercase tracking-wider block mb-2">
-                            OFFICIAL VIP LINE COMMUNITY
-                        </span>
-                        <h2 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
-                            加入【<span class="text-gold-gradient">職感菁英學院</span>】官方 LINE
-                        </h2>
-                        
-                        <div class="p-4 sm:p-5 rounded-2xl bg-black/40 border border-emeraldBorder/60 mb-6">
-                            <p class="text-base sm:text-lg text-white font-medium leading-relaxed">
-                                <i class="fas fa-bullhorn text-gold mr-2"></i> 加入官方 LINE@，即時獲取第一手的<span class="text-gold font-bold">活動、講座與最新課程資訊</span>！
-                            </p>
-                            <p class="text-xs text-gray-400 mt-2">
-                                不論是新書線下見面會、實體一日工作坊或企業方案諮詢，優先在 LINE 官方帳號發布。
-                            </p>
-                        </div>
-
-                        <!-- 一鍵加好友按鈕 -->
-                        <div class="flex flex-col sm:flex-row gap-3">
-                            <a href="https://line.me/R/ti/p/@elites888" target="_blank" class="py-3.5 px-6 rounded-xl font-bold bg-[#06C755] hover:bg-[#05a847] text-white text-sm transition duration-300 flex items-center justify-center gap-2 shadow-lg">
-                                <i class="fab fa-line text-lg"></i>
-                                立即加入
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 8. 全媒體社群矩陣與頁尾 (Footer) ================= -->
-    <footer class="bg-obsidian border-t border-gold/15 py-14">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            
-            <!-- 品牌 LOGO 與名稱 -->
-            <div class="flex items-center justify-center gap-3 mb-5">
-                <div class="w-10 h-10 rounded-xl overflow-hidden border border-gold/40 bg-black flex items-center justify-center p-0.5">
-                    <img src="official_diamond_logo.png" alt="職感菁英學院 LOGO" class="w-full h-full object-contain">
-                </div>
-                <div class="font-serif text-xl font-bold text-gold-gradient">
-                    林逸蓁 Ginger Lin ｜ 職感菁英學院
-                </div>
-            </div>
-
-            <!-- 核心金句 -->
-            <p class="text-sm text-gray-400 max-w-xl mx-auto mb-8 font-serif">
-                「讓每一段經歷產生複利，讓每一次投入都成為持續創造價值的資產」
-            </p>
-
-            <!-- 全媒體矩陣圖標直連 -->
-            <div class="flex flex-wrap items-center justify-center gap-4 mb-10">
-                <a href="https://www.youtube.com/@gingerlin8568" target="_blank" title="YouTube 官方頻道" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-red-500 hover:border-red-500 transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/ginger-lin-12b7a274/" target="_blank" title="LinkedIn 商業履歷" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#0A66C2] hover:border-[#0A66C2] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.threads.com/@ginger.career.assets" target="_blank" title="Threads 日常觀點" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-white hover:border-gray-500 transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fa-brands fa-threads"></i>
-                </a>
-                <a href="https://www.instagram.com/47gingerlab/" target="_blank" title="Instagram 生活與思考" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#E1306C] hover:border-[#E1306C] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://open.spotify.com/show/7EKQQERlSVzEewlJ3zWlLt" target="_blank" title="Spotify 隨身播客" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#1DB954] hover:border-[#1DB954] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-spotify"></i>
-                </a>
-                <a href="https://ginger.buzzsprout.com/" target="_blank" title="Buzzsprout 播客" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-gold hover:border-gold transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fas fa-podcast"></i>
-                </a>
-                <a href="https://line.me/R/ti/p/@elites888" target="_blank" title="LINE 官方帳號" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#06C755] hover:border-[#06C755] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-line"></i>
-                </a>
-            </div>
-
-            <!-- 版權聲明 -->
-            <div class="text-xs text-gray-500 border-t border-gray-900 pt-8">
-                &copy; 2026 林逸蓁 Ginger Lin ｜ 職感菁英學院 The Elite Academy. All rights reserved.
-            </div>
-
-        </div>
-    </footer>
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Ginger Lin 林逸蓁</span>
+    <span>LINE：@elites888</span>
+  </div>
+</footer>
 
 </body>
 </html>
